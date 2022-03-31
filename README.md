@@ -7,4 +7,4 @@
 # alex crestin
 # Catalina Boca
 # Mantoiu Daniela
-# Barz Geanina
+# Marius Groza
