@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/BogdanRemusCristian/css/brc.css" />
+  <title>Pagina lui {{ owner }}</title>
+</head>
+
+<body class="brc-body">
+  {% block main %}
+  <main id="brc-wrapper">
+    {% include 'BogdanRemusCristian/header.html.twig' %}
+    <section class="brc-content brc-filter">
+      <h1>{{ owner }} - Curiculum Vitae (Light)</h1>
+      <div class="brc-content-columns">
+        {% include 'BogdanRemusCristian/personal.html.twig' %}
+        {% include 'BogdanRemusCristian/skills.html.twig' %}
+      </div>
+    </section>
+    <footer class="brc-filter">Copyright &copy; {{ copyrightInterval }} {{ owner }}</footer>
+  </main>
+  {% endblock %}
+  <script src="/BogdanRemusCristian/js/brc.js"></script>
+</body>
+
+</html>

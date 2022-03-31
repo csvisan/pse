@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('materialdesignicons.min.css');
+
+.brc-body {
+  background-color: #0f0f0f;
+  color: lightgray;
+  height: calc(100vh - 30px);
+  min-width: 550px;
+  margin: 15px;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.brc-body p,
+.brc-body ul {
+  margin: 0;
+  padding: 0;
+}
+
+.brc-body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brc-body a:hover {
+  color: #2692da;
+}
+
+.brc-show-phone {
+  background-color: #0072bc;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.brc-show-phone:hover {
+  background-color: #2692da;
+}
+
+#brc-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  max-width: 1360px;
+  margin: 0 auto;
+  background-color: #1d1d1d;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.brc-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.brc-content h1 {
+  align-self: center;
+}
+
+.brc-content-columns {
+  width: 100%;
+  height: calc(100% - 130px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.brc-column {
+  width: 45%;
+  border: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.brc-column h3 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  align-self: center;
+  color: #2692da;
+}
+
+.brc-column ul {
+  font-size: 20px;
+  line-height: 2rem;
+  list-style-type: none;
+}
+
+.brc-column ul .mdi {
+  margin-right: 20px;
+}
+
+.brc-column li:nth-child(even) {
+  color: #777;
+}
+
+.brc-odd {
+  color: lightgray;
+}
+
+#brc-wrapper header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  position: relative;
+}
+
+#brc-wrapper footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px dashed gray;
+  color: rgba(0, 114, 188, 0.42);
+}
+
+.brc-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0072bc;
+  text-shadow: 2px 2px 5px black;
+}
+
+.brc-job {
+  font-size: 16px;
+  color: rgba(0, 114, 188, 0.42);
+  text-shadow: 2px 2px 5px black;
+}
+
+.brc-job em {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.brc-avatar-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brc-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: inset 0 3px 0px #dcffa6, 0 3px 5px #fff;
+  z-index: 1;
+}
+
+.brc-details {
+  margin-bottom: 16px;
+}
+
+.brc-avatar:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.9), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+}
+
+.brc-magnify {
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.brc-magnify:hover {
+  -webkit-transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15);
+}
+
+.brc-wave-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+}
+
+.brc-wave {
+  width: 70%;
+  height: 660px;
+  position: absolute;
+  top: -80%;
+  left: 40%;
+  margin-left: -52%;
+  margin-bottom: 0px;
+  border-radius: 34%;
+  background: linear-gradient(
+    rgba(22, 149, 235, 0.32),
+    rgba(14, 32, 231, 0.32),
+    rgba(11, 15, 66, 0.32)
+  );
+}
+
+.brc-wave.one {
+  animation: wave 15s infinite linear;
+}
+
+.brc-wave.two {
+  animation: wave 10s infinite linear;
+}
+
+.brc-wave.three {
+  animation: wave 17.5s infinite linear;
+}
+
+.brc-personal td {
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.brc-personal .mdi {
+  margin-right: 10px;
+}
+
+.brc-personal td:first-of-type {
+  width: 240px;
+  height: 35px;
+  color: gray;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
