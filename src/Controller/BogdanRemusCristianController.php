@@ -10,7 +10,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class BogdanRemusCristianController extends AbstractController
 {
-  #[Route('/BogdanRemusCristian')]
+  #[Route('/bogdan-remus-cristian')]
   public function show(Request $request): Response
   {
     return $this->render('BogdanRemusCristian/index.html.twig', [

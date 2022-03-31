@@ -4,7 +4,7 @@
 .brc-body {
   background-color: #0f0f0f;
   color: lightgray;
-  height: calc(100vh - 105px);
+  height: calc(100vh - 30px);
   min-width: 550px;
   margin: 15px;
   font-family: 'Roboto', sans-serif;
@@ -55,6 +55,7 @@
   border-radius: 20px;
   padding: 20px;
   overflow-y: scroll;
+  box-sizing: border-box;
 }
 
 .brc-content {
