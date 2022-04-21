@@ -9,3 +9,4 @@
 # Mantoiu Daniela
 # Marius Groza
 # Barz Geanina
+# Moga Amadeus
