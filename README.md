@@ -8,3 +8,4 @@
 # Catalina Boca
 # Mantoiu Daniela
 # Roxana Budiu
+# Marius Groza
