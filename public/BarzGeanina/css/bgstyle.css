@@ -2,7 +2,6 @@
 .column {
   float: left;
   width: 50%;
-  height: 700px; 
 }
 
 
@@ -12,19 +11,17 @@
   clear: both;
 }
 
-.row-style{
-	background-color:#F4C2C2;
+.row-style{	
 	padding:40px;
 }
 
 .bg-column {
-  width: 50%;
+  width: 80%;
   border: 1px solid gray;
   padding: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 100%;
 }
 
 .bg-personal{
@@ -32,8 +29,19 @@
   font-size: 20px;
   padding: 0;
   margin: 0;
+  background-color:#F4C2C2;
 }
 
 .text-style{
  font-style: italic
+ }
+ 
+.body-style{
+  background-color:#F4C2C2;
+}
+.image-style{
+	height:700px ;
+	padding-top:30px;
+	display: flex;
+	margin:auto;
 }

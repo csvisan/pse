@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="/BarzGeanina/css/bgstyle.css" />
-  <title>Barz Geanina page </title>
-</head
-
-<body>
-
-<div class="row row-style">
-  <div class="column" >
-    <h1>Hello Braz Geanina personal page!</h1>
-      <div class="brc-content-columns">
-            {% include 'barz_geanina/personal.html.twig' %}
-      </div>
-  </div>
-  <div class="column" >
-	<div>
-        <img src="/BarzGeanina/images/barz_geanina.jpeg"  style="height:700px" />
-      <div>
-    </div>
-</div>
-
-</body>
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href="/BarzGeanina/css/bgstyle.css" />
+      <title>Barz Geanina page </title>
+      </head
+   <body>
+      <div class="row">
+	   <h1 style="text-align:center">Hello Braz Geanina personal page!</h1>
+		  <div class="column">			
+			 <div class="brc-content-columns">
+				{% include 'barz_geanina/personal.html.twig' %}
+			 </div>
+		  </div>
+		  <div class="column">
+			<img src="/BarzGeanina/images/barz_geanina.jpeg"  class="image-style" />
+		  </div>
+	  </div>
+   </body>
+   <footer style="text-align:center">
+      <p>Alba Iulia 2022</p>
+   </footer>
 </html>
