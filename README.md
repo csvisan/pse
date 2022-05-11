@@ -1,1 +1,2 @@
 # pse
+Bako Amalia Alexandra
