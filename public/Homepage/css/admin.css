@@ -1,0 +1,65 @@
+.modal {
+  overflow: visible;
+}
+
+#form div:last-of-type {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.login-form #form div:last-of-type {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: rgba(224, 224, 244, 0.34);
+}
+
+.uab-logo {
+  width: 185px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.image {
+  height: 150px !important;
+  width: 150px !important;
+  object-fit: contain;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  filter: brightness(0.8);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.image:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.9), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+  filter: brightness(1.1);
+  -webkit-transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15);
+}
+
+.student-name {
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+body,
+html {
+  background: url('/Homepage/images/pattern.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: transparent !important;
+}

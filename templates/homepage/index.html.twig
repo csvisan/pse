@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homepage</title>
+    <meta name="description" content="All students of 2022 master degree promotion." />
+    <meta name="keywords" content="students, uab, master, 2022" />
+    <meta name="author" content="Bogdan Remus Cristian" />
+    <link rel="shortcut icon" href="/Homepage/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/Homepage/css/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <main class="container text-center">
+      {% include 'homepage/header.html.twig' %}
+      <h2 class="my-3 text-primary">Bun venit pe pagina grupei PABD - 2022</h2>
+      <section class="row">
+        {% for student in students %}
+        <div class="col-lg-2 col-3 p-2 text-center">
+          <div class="col">
+            <a href="{{ student.link }}" class="student-link">
+              <img
+                src="{{ student.picture }}"
+                class="image student-image"
+                alt="{{ student.name }}"
+              />
+            </a>
+            <h6 class="student-name mt-3 text-secondary">{{ student.name }}</h6>
+          </div>
+        </div>
+        {% endfor %}
+      </section>
+    </main>
+  </body>
+</html>
