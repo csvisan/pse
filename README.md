@@ -12,4 +12,4 @@
 # Moga Amadeus
 # Denis Popa
 # Roxana Budiu
-
+# Precup Cristian Sorin
