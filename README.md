@@ -6,4 +6,10 @@
 # Qumseya Ibrahim
 # alex crestin
 # Catalina Boca
-
+# Mantoiu Daniela
+# Marius Groza
+# Barz Geanina
+# Moga Amadeus
+# Denis Popa
+# Roxana Budiu
+# Precup Cristian Sorin

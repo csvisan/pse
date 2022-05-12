@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-light rounded mt-2">
+  <a class="navbar-brand" href="/">
+    <img src="/Homepage/images/uab-logo.png" alt="Logo" class="uab-logo" />
+  </a>
+  <h3 class="text-primary">Masteranzi - Promoția 2022 - PABD</h3>
+  <div style="flex-grow: 1"></div>
+  {% if isLogged %}
+  <a class="btn btn-info mr-2" href="/admin/logout"> Logout </a>
+  {% endif %}
+  <a class="btn btn-secondary" href="/admin"> Administrare </a>
+</nav>

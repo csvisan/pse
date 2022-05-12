@@ -1,0 +1,24 @@
+<section id="ma-section">
+  <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds,
+    pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a
+    website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
+  <p>Front end developers are computer programmers who specialize in website design. Front end developer duties
+    include determining the structure and design of web pages, striking a balance between functional and aesthetic
+    design, and ensuring web design is optimized for smartphones.</p>
+  <h3>Knowledge</h3>
+  <ul>
+    {% for knowledge in knowledges %}
+    <li>{{ knowledge.name }} - Experience: {{ knowledge.experience }}</li>
+    {% endfor %}
+  </ul>
+  <hr />
+  <div class="ma-content-footer">
+    <div class="ma-toggle">
+      <label class="ma-switch">
+        <input type="checkbox">
+        <span class="ma-slider ma-round"></span>
+      </label>
+    </div>
+    <div class="ma-info">Toggle background animation</div>
+  </div>
+</section>

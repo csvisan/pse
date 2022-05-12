@@ -5,12 +5,11 @@ controllers:
 kernel:
     resource: ../src/Kernel.php
     type: annotation
-<<<<<<< HEAD
-show:
-    path: /AncaAdrian
-    controller: App\Controller\show
-=======
+
 index:
     path: /AncaAdrian
     controller: App\Controller\index
->>>>>>> 097b9b46d4b34eb14d0f2e86c788c8211bf18647
+
+Qumseya-Ibrahim:
+    path: /qumseya-Ibrahim
+    controller: App\Controller\QumseyaIbrahimController::number
