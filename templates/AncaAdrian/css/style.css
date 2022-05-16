@@ -1,0 +1,168 @@
+<<<<<<< HEAD
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #c8ddeb;
+  border-bottom: 1px solid #bbd4e7;
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#home .profile-img {
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+#home .profile-img:hover{
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #c8ddeb;
+  border-top: 1px solid #bbd4e7;
+ text-shadow: 1px 1px 1px #fff;
+}
+
+#home h1 {
+  font-size: 3em;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#home, #skill, #about {
+background-image: url('/img/background.jpg');
+=======
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #c8ddeb;
+  border-bottom: 1px solid #bbd4e7;
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#home .profile-img {
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+#home .profile-img:hover{
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #c8ddeb;
+  border-top: 1px solid #bbd4e7;
+ text-shadow: 1px 1px 1px #fff;
+}
+
+#home h1 {
+  font-size: 3em;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#home, #skill, #about {
+background-image: url('/img/background.jpg');
+>>>>>>> 097b9b46d4b34eb14d0f2e86c788c8211bf18647
+}
