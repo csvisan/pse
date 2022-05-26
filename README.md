@@ -15,3 +15,4 @@
 # Precup Cristian Sorin
 # Bako Amalia Alexandra
 # Mihai Baciu
+# Barz Mihai
