@@ -10,3 +10,7 @@ kernel:
 Qumseya-Ibrahim:
     path: /qumseya-Ibrahim
     controller: App\Controller\QumseyaIbrahimController::number
+
+Precup-Cristian:
+    path: /PrecupCristian
+    controller: App\Controller\PrecupCristianController::number
