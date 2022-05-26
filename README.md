@@ -12,4 +12,5 @@
 # Moga Amadeus
 # Denis Popa
 # Roxana Budiu
+# Visan Cosmin
 
