@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Zilla Slab";
+}
+
+#sa-body
+{
+    margin:40px 0 0 0;
+    background: linear-gradient(320deg, #0270a7, #5a0abb);
+    background-size: 400% 400%;
+    animation: gradient  5s ease infinite;
+}
+@keyframes gradient {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+
+#sa-main {
+    max-width: 80%;
+    height: 100%;
+    padding: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+
+#sa-header {
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#sa-header aside {
+    margin-left: 20px;
+    align-self: self-end;
+}
+
+#sa-header aside span:first-child {
+    cursor: pointer;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    color: #f2f4fe;
+    position: relative;
+    top: -65px;
+}
+
+#sa-header aside span:first-child:hover, #sa-header aside span:last-child a:hover
+{
+    color: #0d27a6;
+    text-shadow: 2px 2px 2px #f2f4fe;
+}
+
+#sa-header aside span:last-child a {
+    color: #f2f4fe;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    position: relative;
+    top: -62px;
+    display: flex;
+    text-decoration: none;
+}
+
+#sa-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#sa-section {
+    padding: 0 10px 40px 0;
+    width: 60%;
+    float: left;
+    text-indent: 6%;
+}
+#sa-section p {
+    font-size:20px;
+    text-align: justify;
+    animation: color-animation 3s infinite;
+}
+
+p {
+    --color-1: #5a1bdb;
+    --color-2: #0d27a6;
+    --color-3: #14496e;
+}
+@keyframes color-animation {
+    33%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+
+#sa-section2 {
+    width: 36%;
+    float: right;
+
+}
+
+.sa-lists {
+    float: left;
+    display: block;
+    width: 25%;
+}
+.sa-books{
+    float: left;
+    display: block;
+    width: 74%;
+}
+ul, li{
+    padding: 2px;
+}
+#sa-section2 h3
+{
+    text-align: center;
+}
+
+
+#sa-image {
+    top: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px rgba(123, 123, 123, 0.8);
+}
+
+.sa-rotate {
+    animation: rotate infinite 2s linear;
+    animation-iteration-count: 1;
+}
+
+.sa-scale {
+    transform: scale(1.1);
+}
+
+#sa-body footer {
+    clear: both;
+    border-top: 1px solid #0d27a6;
+    padding: 40px 0 10px 0;
+    text-align: center;
+}
+#sa-body footer span{
+    width: 33%;
+    display: inline-block;
+}
+#sa-body footer .footer-1{
+    text-align: left;
+}
+#sa-body footer .footer-3{
+    text-align: right;
+}
+
+.sa-content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sa-info {
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+
+#animatie div {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(123, 123, 123, 0.8);
+    background-color: transparent;
+    position: absolute;
+    animation: myfirst 12s linear 5s infinite alternate;
+}
+
+@keyframes myfirst {
+    0%   {background-color:#5a1bdb; left:0px; top:0px;}
+    25%  {background-color:#0d27a6; left:calc(100% - 20px); top:0px;}
+    50%  {background-color:#14496e; left:calc(100% - 20px); top:calc(100% - 20px);}
+    75%  {background-color:#5a1bdb; left:0px; top:calc(100% - 20px);}
+    100% {background-color:#0d27a6; left:0px; top:0px;}
+}

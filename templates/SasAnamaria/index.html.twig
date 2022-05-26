@@ -1,0 +1,38 @@
+<section id="sa-section">
+
+    <p>Aliquam facilisis accumsan tellus id dictum. Praesent id consectetur est.
+        Aenean ut turpis ac odio sagittis interdum. Proin porta consectetur sagittis.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        Quisque hendrerit felis ac lectus rhoncus sollicitudin. </p>
+
+    <p>Nulla vestibulum accumsan sem, eu pulvinar velit tristique nec.
+        Nulla eu condimentum sapien. Proin euismod congue accumsan.
+        Praesent nec sollicitudin augue. Nullam nec urna tellus.
+        Nam tincidunt, felis vitae ultricies hendrerit, justo massa eleifend velit,
+        vel pharetra mi tortor a turpis. Ut sapien mi, fringilla ac convallis ac, aliquam vitae libero.
+        Morbi condimentum ligula eros, non volutpat mi mattis ac. Nunc molestie iaculis vulputate.
+        Vestibulum semper scelerisque nulla, in porttitor metus. Praesent eleifend eu augue sed placerat.
+        Proin molestie ex sit amet diam placerat, a egestas purus accumsan.
+        Phasellus lacus est, ultrices eu lectus non, luctus suscipit diam. Nullam quis nulla in quam commodo dignissim. </p>
+
+</section>
+
+<section id=sa-section2>
+
+    <div class="sa-lists">
+        <h3>Hobbies</h3>
+        <ul>
+            {% for hobbie in hobbies %}
+                <li>{{ hobbie.name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="sa-books">
+        <h3>Books</h3>
+        <ol> {% for book in books %}
+                <li>{{ book.name }} By {{ book.by }}</li>
+            {% endfor %} </ol>
+    </div>
+
+</section>
