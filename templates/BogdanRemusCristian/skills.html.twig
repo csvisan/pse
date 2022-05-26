@@ -1,0 +1,8 @@
+<div class="brc-column">
+  <h3>Cunoștințe</h3>
+  <ul>
+    {% for skill in skills %}
+    <li><span class="mdi mdi-{{ skill.icon }}"></span>{{ skill.name }}</li>
+    {% endfor %}
+  </ul>
+</div>

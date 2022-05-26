@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Homepage/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/Homepage/css/admin.css" />
+    <title>Autentificare administrator</title>
+  </head>
+  <body>
+    <div class="container">
+      {% include 'homepage/header.html.twig' %} {% if app.request.get('logoutSuccess') and not error
+      %}
+      <div class="alert alert-success text-center mt-2">Ati ieșit cu succes !</div>
+      {% endif %} {% if error %}
+      <div class="alert alert-danger text-center mt-2">Autentificare eșuată !</div>
+      {% endif %}
+
+      <div class="text-center d-flex justify-content-center login-form">
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        {{ form_end(form) }}
+      </div>
+    </div>
+  </body>
+</html>

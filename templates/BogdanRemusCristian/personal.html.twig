@@ -1,0 +1,34 @@
+<div class="brc-column">
+  <h3>Date personale</h3>
+  <table class="brc-personal">
+    <tbody>
+      <tr>
+        <td><span class="mdi mdi-cake-variant"></span>Data nașterii</td>
+        <td>{{ personal.dob }} ({{ personal.age }} de ani)</td>
+      </tr>
+      <tr>
+        <td><span class="mdi mdi-gmail"></span>Adresă email</td>
+        <td><a href="mail:{{ personal.email }}">{{ personal.email }}</a></td>
+      </tr>
+      <tr>
+        <td><span class="mdi mdi-stack-overflow"></span>StackOverflow</td>
+        <td>
+          <a target="_blank" href="{{ personal.stackoverflow }}">
+            @cevacomic
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="mdi mdi-card-account-details"></span>Permis de conducere</td>
+        <td>{{ personal.driver_license }}</td>
+      </tr>
+      <tr>
+        <td><span class="mdi mdi-phone-in-talk"></span>Număr de telefon</td>
+        <td>
+          <a class="brc-phone"></a>
+          <button class="brc-show-phone">Arată numărul de telefon</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(198, 215, 221);
+
+
+}
+p{
+    font-family: Helvetica;
+    color:red;
+    overflow: hidden;
+}
+h1{
+    color:rgb(24, 7, 7); 
+    text-align: center;
+}
+
+h2{
+    color:rgb(105, 32, 32); 
+    text-align: center;
+    text-decoration: overline;
+}
+h3{
+    color:rgb(218, 92, 92); 
+}
+.content {
+  position: absolute;
+  height: 80%; 
+  width: 80%; 
+  top: 10%; 
+  left: 10%; 
+}
+
+ul {
+  list-style: inside;
+}
+ul.a {
+  list-style-type: circle;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+   
+  }
+
+
