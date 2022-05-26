@@ -1,5 +1,10 @@
 # pse
 
+# Puia Daniela - Rodica
+
+# SAS ANAMARIA
+
+
 # Bogdan Remus Cristian
 # SAS ANAMARIA
 # Anca Adrian
@@ -13,3 +18,6 @@
 # Denis Popa
 # Roxana Budiu
 # Precup Cristian Sorin
+# Bako Amalia Alexandra
+# Mihai Baciu
+# Barz Mihai

@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Imagine nouă{% endblock %}
+
+{% block body %}
+<main class="container col-4">
+  <h3>Adaugă o imagine nouă</h3>
+
+  {{ include('gallery/_form.html.twig') }}
+</main>
+{% endblock %}
