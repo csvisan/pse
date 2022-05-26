@@ -1,7 +1,5 @@
 <?php
 
-
-
 namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -16,4 +14,5 @@ class AncaAdrianController extends AbstractController
                 'controller_name' => 'AncaAdrianController',
         ]);
     }
+
 }
