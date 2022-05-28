@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/MogaAmadeus/css/cesese.css" />
+  <link rel="shortcut icon" href="/MogaAmadeus/img/favicon.jpg" />
+  <title>{{ author }}</title>
+</head>
+
+<body id="ma-body">
+  {% block body %}
+  <main id="ma-main">
+    <img id="ma-background" src="/MogaAmadeus/img/background.jpg" alt="Background" />
+    {% include 'MogaAmadeus/header.html.twig' %}
+    {% include 'MogaAmadeus/content.html.twig' %}
+    {% include 'MogaAmadeus/footer.html.twig' %}
+  </main>
+  {% endblock %}
+  <script src="/MogaAmadeus/js/moga.js"></script>
+</body>
+
+</html>

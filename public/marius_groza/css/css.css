@@ -1,0 +1,148 @@
+body{
+	background-color:#303030;
+	text-align:center;
+}
+
+.mg-content{
+	width:80%;
+	text-align:left;
+	background-color:white;
+	margin: 0px auto;
+}
+
+header{
+	background-image:url("/marius_groza/imagini/header-bg.jpg");
+	background-size: 70%;
+	background-color: #001362;
+	background-repeat: no-repeat;
+	max-height:350px;
+	max-width:100%;
+	vertical-align:center;
+}
+
+#header_text{
+	color:white;
+	font-weight:bold;
+	line-height:100%;
+	text-align:right;
+	font-size:5vw;
+	font-weight:bold;
+	padding-right:6vw;
+	padding-top:3vw;
+	padding-bottom:3vw;
+}
+
+#meniu_mg{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 5vw;
+	overflow: hidden;
+	background-color: #111111;
+	text-align:center;
+}
+
+#meniu_mg a{
+	text-decoration:none;
+	display: block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	font-size: 24px;
+}
+
+#meniu_mg a:hover{
+	background-color: #0099cc;
+}
+
+#meniu_mg li{
+	float: left;
+	border-right: 1px solid #bbb;
+}
+#meniu_mg li:last-child{
+	border-right: none;
+}
+
+.mg-real-content{
+	padding: 0 6vw;
+	min-height:550px;
+}
+
+.mg-real-content p{
+	text-align:justify;
+	text-indent: 50px;
+	font-size:20px;
+}
+
+img#me{
+	width:20%;
+	float:right;
+	padding-left: 20px;
+}
+
+ul#lista-premii{
+	list-style-type:circle;
+	font-size:20px;
+}
+
+ul#lista-premii li + li {
+  margin-top: 10px;
+}
+
+.premii{
+	color:red;
+	font-weight:bold;
+}
+
+footer{
+	clear:both;
+	color:white;
+	background-color:#111111;
+	font-size: 18px;
+	margin: 0px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.footer_element{
+	float:left;
+	padding-left:6vw;
+	
+}
+
+footer a{
+	color:white;
+	text-decoration:none;
+}
+
+footer a:hover{
+	color:#0099cc;
+}
+
+ul#meniu_footer_mg{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float:right;
+	padding-right:6vw;
+}
+
+ul#meniu_footer_mg a{
+	text-decoration:none;
+	color:white;
+	display: block;
+	padding:0 16px;
+}
+
+ul#meniu_footer_mg a:hover{
+	color: #0099cc;
+}
+
+ul#meniu_footer_mg li{
+	float: left;
+	border-right: 1px solid #bbb;
+}
+ul#meniu_footer_mg li:last-child{
+	border-right: none;
+}

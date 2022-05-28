@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/marius_groza/css/css.css" />
+  <title>Pagina lui Marius</title>
+</head>
+
+<body>
+	{% block body %}
+	<div class="mg-content">
+		{% include 'marius_groza/header.html.twig' %}
+		<div class="mg-real-content">
+			<img src="/marius_groza/imagini/me.jpg" id="me"/>
+			<p>Mă numesc Marius Groza, locuiesc în județul Gorj și sunt profesor de Informatică și TIC, nivel gimnazial.
+			Am absolvit Colegiul Economic „Dionisie Pop Marțian” din Alba Iulia în anul 2007 și Facultatea de Științe Exacte și Inginerești,
+			specializarea Informatică, din cadrul Universității „1 Decembrie 1918” din Alba Iulia în anul 2010. În prezent sunt înscris la
+			cursurile de masterat Programare Avansată și Baze de Date din cadrul facultății și universității anterior menționate. Am ales să 
+			fac acest pas atât pentru a mă ajuta în cariera didactică, cât și pentru a dobândi cunoștințe și competențe noi.</p>
+			<p>Am avut o activitate de aproximativ 5 ani în domeniul Graphic Design, urmând ca din anul 2015 să urmez o carieră în învățământ. 
+			Sunt un om dedicat, care se implică în tot ceea ce face și care încearcă să dea 100% în fiecare moment. Din primele zile la catedră
+			m-am îndrăgostit de această meserie, îmi place enorm să lucrez cu copiii și este o activitate care îmi oferă satisfacție în ceea ce
+			privește evaluarea rezulatelor. Drept urmare, în urma eforturilor depuse împreună cu minunații elevi pe care am avut ocazia să îi coordonez,
+			am obținut rezultate extraordinare la concursurile și olimpiadele școlare la care am participat. Dintre acestea, cele mai notabile sunt:</p>
+			<ul id="lista-premii">
+				<li> <span class="premii">Locul II</span> la etapa județeană și calificare la etapa națională a Olimpiadei Naționale de Informatică 2019, clasa a 7-a</li>
+				<li> <span class="premii">Locul III</span> la etapa județeană și calificare la etapa națională a Olimpiadei Naționale de Informatică 2022, clasa a 5-a</li>
+				<li> <span class="premii">Locul II</span> la etapa județeană și calificare la etapa națională a Olimpiadei Naționale de Informatică 2022, clasa a 7-a</li>
+				<li> <span class="premii">Locul II</span> la etapa județeană și calificare la etapa națională a Olimpiadei Naționale de Informatică 2022, clasa a 8-a</li>
+				<li> <span class="premii">Medalie de bronz</span> la etapa națională a Olimpiadei Naționale de Informatică 2022, clasa a 8-a</li>
+			</ul>
+		</div>
+		{% include 'marius_groza/footer.html.twig' %}
+	</div>
+	{% endblock %}
+</body>
+
+</html>
