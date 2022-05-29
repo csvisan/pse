@@ -21,3 +21,4 @@
 # Bako Amalia Alexandra
 # Mihai Baciu
 # Barz Mihai
+# Vass Richard-Daniel
