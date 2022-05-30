@@ -17,3 +17,7 @@ Qumseya-Ibrahim:
 Precup-Cristian:
     path: /PrecupCristian
     controller: App\Controller\PrecupCristianController::number
+
+Puia-Daniela:
+    path: /PuiaDaniela
+    controller: App\Controller\PuiaDanielaController::number
