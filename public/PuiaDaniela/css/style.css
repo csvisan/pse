@@ -1,0 +1,85 @@
+body {
+    background-color: f7ebeb;
+}
+p {
+    margin-left: 50px; 
+    margin-right: 50px;
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 17;
+}
+h1 {
+    padding-top: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    margin-left: 50px; 
+    border-radius: 30px; 
+}
+#image {
+     float: left;
+     position: relative;
+     width: 20%;
+     height: 230px;
+     margin-left: 50px;
+     background-color: white;
+     border-radius: 15px;  margin-top: 25px;
+     box-shadow: 5px 10px 10px 10px grey;
+}
+img{
+    border-radius: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#name{
+    float: right;
+    width: 65%;
+    height: 230px;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 15px;  margin-top: 25px;
+    box-shadow: 5px 10px 10px 10px grey;
+    background-color: powderblue;
+}
+#top{
+   height: 230px;
+   width: 75%;
+   border-radius: 15px;
+   margin: auto;
+   margin-top: 25px;
+   }
+#about{
+   background-color: powderblue;
+   width: 68.5%;
+   height: 45%; 
+   border-radius: 15px; 
+   margin: auto; 
+   margin-top: 55px;
+   box-shadow: 5px 10px 10px 10px grey;
+}
+.apt{
+    width: 40%;
+   padding-left: 50px;
+   position: relative;
+   float: left;
+}
+#h21 {
+    padding-left: 35px;
+    padding-right: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+#h22 {
+    padding-left: 110px;
+    padding-right: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+.aptitu{
+    width: 40%;
+   padding-left: 20px;
+   padding-top: 3px;
+   position: relative;
+   float: right;
+
+}
