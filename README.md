@@ -13,4 +13,3 @@
 # Denis Popa
 # Roxana Budiu
 # Precup Cristian Sorin
-# Hanches Otilia
