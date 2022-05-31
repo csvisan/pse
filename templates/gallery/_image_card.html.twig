@@ -1,0 +1,8 @@
+{% block card %}
+<a style="text-decoration: none" href="#view-picture-{{ image.id }}" rel="modal:open">
+  <div class="image-container">
+    <div class="mb-3 alert alert-warning w-max text-capitalize">{{ image.title }}</div>
+    <img class="image" src="data:image/png;base64,{{ image.source }}" alt="{{ image.title }}" />
+  </div>
+</a>
+{% endblock%}

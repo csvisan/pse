@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/SasAnamaria/css/style.css" />
+    <title>{{ name }}</title>
+
+</head>
+
+<body id="sa-body">
+{% block body %}
+    <main id="sa-main">
+        <div id="animatie">
+            <div></div>
+        </div>
+        <img id="sa-background" src="/SasAnamaria/images/background.jpg" alt="Background" />
+        {% include 'SasAnamaria/header.html.twig' %}
+        {% include 'SasAnamaria/index.html.twig' %}
+        {% include 'SasAnamaria/footer.html.twig' %}
+    </main>
+{% endblock %}
+<script src="/SasAnamaria/JS/javascript.js"></script>
+</body>
+
+</html>
