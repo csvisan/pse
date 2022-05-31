@@ -1,0 +1,27 @@
+<section>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis efficitur mi et dignissim. Quisque dapibus varius quam, sodales dictum ex molestie finibus. Vivamus tincidunt at augue vitae ullamcorper. Quisque commodo, est nec ornare pulvinar, elit diam viverra leo, vitae congue augue ex sit amet tellus. Nullam eget tellus sit amet ex mattis dapibus. Quisque ac arcu eget tortor ornare auctor eget vel est. Phasellus facilisis congue nunc, id dictum sapien rutrum sed. </p>
+
+    <p> Fusce tempus, metus nec sollicitudin mollis, felis urna finibus tellus, a maximus ex diam in neque. Cras porttitor purus ut neque bibendum mattis. Curabitur a purus urna. Praesent eleifend ante eget dolor consequat vehicula. Vivamus luctus magna id tellus mattis ullamcorper. In eu feugiat ante, at faucibus urna. Etiam ac arcu justo. </p>
+
+</section>
+
+<section id=sa-section>
+
+    <div class="sa-lists">
+        <h3>Tech</h3>
+        <ul>
+            {% for tech in techs %}
+                <li>{{ tech.name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="sec-books">
+        <h3>Books</h3>
+        <ol> {% for book in books %}
+                <li>{{ book.name }} By {{ book.by }}</li>
+            {% endfor %} </ol>
+    </div>
+
+</section>

@@ -3,6 +3,9 @@
 namespace App\Entity;
 
 use App\Repository\ImageRepository;
+use Symfony\Component\Validator\Constraints\Length;
+
+use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ImageRepository::class)]
