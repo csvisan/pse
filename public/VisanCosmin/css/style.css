@@ -1,0 +1,50 @@
+
+body {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #63b0dd;
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align1: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 1px #fff;
+  font-size: .9em;
+}
+
+img {
+  width: 300px;
+  border-radius: 10%;
+  opacity: 0.8;
+  float:right;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
