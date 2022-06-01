@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+::-moz-selection { background: rgba(0,0,0,0.2); }
+::selection { background: rgba(0,0,0,0.2); }
+
+body {
+  background: rgb(46, 64, 2);
+  background-size: 200%;
+  background-position: 0%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 4em;
+  color: #f5f5f5;
+  animation: bg-move 10s linear infinite;
+  -webkit-animation: bg-move 10s linear infinite;
+}
+container {
+    max-width: 80%;
+    margin:0;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: left;
+  margin: -.1em 0 1em;
+}
+.circle {
+  position: relative;
+  margin: 0 3em;
+  height: 10em;
+  width: 10em;
+  background: url("../img/MirceaRaul.jpg");;
+  background-size: 10em 10em;
+  box-shadow: 0 0 0 0.8em rgba(255,255,255,0.3);
+}
+
+.nav {
+  margin: -10px;
+  height: 3em;
+  width: 30.3em;
+}
+
+.nav div {
+  text-align: left;
+  text-shadow: 0 0 7px rgba(0,0,0,0.3);
+  font-size: 1.2em;
+  line-height: 2em;
+  height: 2em;
+  padding: 0 1em;
+  margin: 0 10px;
+  background: rgba(0,0,0,0.3);
+  opacity: 1;
+  transition: all 500ms;
+  float: left;
+}
+
+
+p:first-of-type {
+  max-width: 9999em;
+  text-align: left;
+  margin: 0;
+}
+p:not(:first-of-type) {
+  animation: slide-in 1s ease-out;
+  -webkit-animation: slide-in 1s ease-out;
+}
+p:not(:first-of-type):before {
+  content: '';
+  display: block;
+  max-width: 49em;
+  width: 80%;
+  height: 1px;
+  background: rgba(0,0,0,0.3);
+  margin: 2.5em 10px;
+}
+
+
+p {
+  background: transparent;
+  line-height: 1.5;
+  margin: 1.4em;
+  max-width: 49em;
+  font-size: 1.3em;
+}
+ul {
+    margin: 1.4em;
+    max-width: 49em;
+}
+ol {
+    margin: 1.4em;
+    max-width: 49em;
+    color: #000000;
+}
+dfn {
+  cursor: help;
+  font-style: normal;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+h2 {
+  display: none;
+  font-weight: 400;
+  font-size: 1.8em;
+  text-align: left;
+}
+span {
+  display: none;
+  font-size: 1em;
+  margin: -1.25em;
+  text-align: left;
+}
+@media (max-width: 1200px) {
+    p:not(:first-of-type) {
+      font-size: 1.1em;
+    animation: fade-in 1s ease-out;
+    -webkit-animation: fade-in 1s ease-out;
+  }
+}
+@media (max-width: 800px) {
+  h2, span {
+    display: block;
+  }
+  .circle {
+    margin: -2em 2em;
+    height: 7em;
+    width: 7em;
+    background-size: 8.2em 8.2em;
+    box-shadow: 0 0 0 0.6em rgba(255,255,255,0.3);
+  }
+
+}
+@keyframes bg-move
+{
+to {
+  background-position: 200%;
+  }
+}
+@-webkit-keyframes bg-move
+{
+to {
+  background-position: 200%;
+  }
+}
+@keyframes slide-in {
+  from {
+    padding-right: 120px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slide-in {
+  from {
+    padding-right: 120px;
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.mysite {
+  font-size: 18px;
+  text-decoration:  none;
+  color: rgba(0,0,0,0.5);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.footer {
+    text-align: right;
+}

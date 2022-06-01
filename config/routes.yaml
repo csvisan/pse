@@ -22,3 +22,7 @@ Precup-Cristian:
 Puia-Daniela:
     path: /PuiaDaniela
     controller: App\Controller\PuiaDanielaController::number
+
+MirceaRaul:
+    path: /MirceaRaul
+    controller: App\Controller\MirceaRaulController::number
