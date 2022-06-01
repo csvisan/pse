@@ -20,3 +20,4 @@
 # Vass Richard-Daniel
 # Muntean Alin Daniel
 # Capilnas Matei-Vasile
+# Visan Cosmin
